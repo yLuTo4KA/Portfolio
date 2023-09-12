@@ -1,0 +1,15 @@
+$black: #121212;
+$preBlack: #161616;
+$gray: #1F1F1F;
+$white: #fff;
+
+$gradient: linear-gradient(90deg, #6B32E7 10%, #FF7C53 100%);
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;400;700&display=swap');
+@import 'layout';
+
+@import 'components/header.scss';
+@import 'components/hero.scss';
+@import 'components/swiper-skills.scss';
+@import 'components/projects.scss';

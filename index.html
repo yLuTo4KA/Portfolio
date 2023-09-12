@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__name">
+                <b>Danil Hatin</b> | Front-end developer
+            </div>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">Skills</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">Projects</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">About</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">Education</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">Resume</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="section hero --bg--black">
+            <div class="container">
+                <div class="welcome">
+                    <div class="welcome__img">
+                        <img src="#" alt="#">
+                    </div>
+                    <div class="welcome__info">
+                        <h3 class="welcome__info-name">Hi, I’m Danil</h2><br>
+                            <h2 class="welcome__info-title">I create value through development.</h2>
+                            <h3 class="welcome__info-sub-title">Front-End Developer passionate about crafting
+                                interactive digital experiences.</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section --bg--gray">
+            <div class="container">
+                <h1 class="section__title">
+                    <span class="--text-gradient">Skills</span>
+                </h1>
+                <div class="skills-swiper-swiper">
+                    <div class="swiper mySwiper-skills">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide slide-skills">
+                                <svg class="slide-skills__img">
+                                    <use xlink:href="../img/sprite.svg#html"></use>
+                                </svg>
+                                <h1 class="slide-skills-name">
+                                    <span class="--text-gradient">HTML</span>
+                                </h1>
+                            </div>
+                            <div class="swiper-slide slide-skills">
+                                <svg class="slide-skills__img">
+                                    <use xlink:href="../img/sprite.svg#scss"></use>
+                                </svg>
+                                <h1 class="slide-skills-name">
+                                    <span class="--text-gradient">SASS/SCSS</span>
+                                </h1>
+                            </div>
+                            <div class="swiper-slide slide-skills">
+                                <svg class="slide-skills__img">
+                                    <use xlink:href="../img/sprite.svg#css"></use>
+                                </svg>
+                                <h1 class="slide-skills-name">
+                                    <span class="--text-gradient">CSS</span>
+                                </h1>
+                            </div>
+                            <div class="swiper-slide slide-skills">
+                                <svg class="slide-skills__img">
+                                    <use xlink:href="../img/sprite.svg#vue"></use>
+                                </svg>
+                                <h1 class="slide-skills-name">
+                                    <span class="--text-gradient">VueJS</span>
+                                </h1>
+                            </div>
+                            <div class="swiper-slide slide-skills">
+                                <svg class="slide-skills__img">
+                                    <use xlink:href="../img/sprite.svg#js"></use>
+                                </svg>
+                                <h1 class="slide-skills-name">
+                                    <span class="--text-gradient">Java Script</span>
+                                </h1>
+                            </div>
+                            <div class="swiper-slide slide-skills">
+                                <svg class="slide-skills__img">
+                                    <use xlink:href="../img/sprite.svg#gulp"></use>
+                                </svg>
+                                <h1 class="slide-skills-name">
+                                    <span class="--text-gradient">GULP</span>
+                                </h1>
+                            </div>
+                            <div class="swiper-slide slide-skills">
+                                <svg class="slide-skills__img">
+                                    <use xlink:href="../img/sprite.svg#php"></use>
+                                </svg>
+                                <h1 class="slide-skills-name">
+                                    <span class="--text-gradient">PHP</span>
+                                </h1>
+                            </div>
+                            <div class="swiper-slide slide-skills">
+                                <svg class="slide-skills__img">
+                                    <use xlink:href="../img/sprite.svg#html"></use>
+                                </svg>
+                                <h1 class="slide-skills-name">
+                                    <span class="--text-gradient">FIGMA</span>
+                                </h1>
+                            </div>
+                            <div class="swiper-slide slide-skills">
+                                <svg class="slide-skills__img">
+                                    <use xlink:href="../img/sprite.svg#laravell"></use>
+                                </svg>
+                                <h1 class="slide-skills-name">
+                                    <span class="--text-gradient">LARAVELL</span>
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section --bg--black">
+            <div class="container">
+                <h1 class="section__title">
+                    <span class="--text-gradient">Projects</span>
+                </h1>
+                <ul class="swiper-navigation swiper-navigation--projects">
+                    <li class="projects__item swiper-navigation-button --active">
+                        <div class="projects__item-info">
+                            <div class="projects__name">Beats</div>
+                        </div>
+                        <div class="projects__item-progress">
+                            <div class="progress"></div>
+                        </div>
+                    </li>
+                    <li class="projects__item">
+                        <div class="projects__item-info">
+                            <div class="projects__name">Quiz-box</div>
+                        </div>
+                        <div class="projects__item-progress">
+                            <div class="progress"></div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="swiper mySwiper-projects">
+                    
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide swiper-slide-projects">
+                            <img class="projects__img" src="./img/main.png" alt="#">
+                        </div>
+                        <div class="swiper-slide swiper-slide-projects">
+                            <img class="projects__img" src="./img/sss.png" alt="#">
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

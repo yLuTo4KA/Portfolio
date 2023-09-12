@@ -1,0 +1,44 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $gray;
+    width: 100%;
+    padding: 20px 30px;
+    border-bottom: 3px solid transparent;
+    border-image: $gradient;
+    -moz-border-image: $gradient;
+    -webkit-border-image: $gradient;
+    border-image-slice: 1;
+
+    &__nav{
+        &-list{
+            display: flex;
+        }
+        &-item{
+            margin-right: 10px;
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+        &-link{
+            position: relative;
+            &::before{
+                content: '';
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                height: 3px;
+                background: $gradient;
+                transform: scale(0);
+                transform-origin: right;
+                transition: transform .25s ease;
+            }
+            &:hover:before{
+                transform: scale(1);
+                transform-origin: left;
+                transition: transform .25s ease;
+            }
+        }
+    }
+}
